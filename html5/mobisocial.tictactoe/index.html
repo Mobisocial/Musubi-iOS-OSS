@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <script type="text/javascript" src="../socialKit.js"></script>
+        <script type="text/javascript" src="../turnBasedGame.js"></script>
+        <script type="text/javascript" src="../jquery-1.5.2.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        
+        <style type="text/css">
+            body {
+                font-family: Helvetica;
+                font-size: 0.9em;
+            }
+            
+            #board {
+                text-align: center;
+                width: 150px;
+            }
+            
+            #board table {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #board td {
+                border-bottom: solid 2px #666;
+                border-right: solid 2px #666;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                vertical-align: middle;
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #board tr:last-child td {
+                border-bottom: none;
+            }
+            
+            #board td:last-child {
+                border-right: none;
+            }
+            
+            #turn {
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            
+            input {
+                line-height: 1.8em;
+                font-size: 1.25em;
+            }
+            
+        </style>
+        
+        <title>TicTacToe</title>
+    </head>
+    <body style="text-align: center">
+        <div id="board" style="margin:20px auto">
+        </div>
+        
+        <div id="turn">
+        </div>
+        
+        <input type="button" value="Start over" onclick="game.reset()">
+        
+        <div style="display: none">
+        <h2>Players</h2>
+        <ul id="players">
+        </ul>
+        </div>
+    </body>
+</html>

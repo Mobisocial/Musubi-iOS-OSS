@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <script type="text/javascript" src="../../lib/socialKit-1.0.1.js"></script>
+        <script type="text/javascript" src="../../jquery-1.5.2.min.js"></script>
+        <script type="text/javascript" src="messenger.js"></script>
+        
+        <style type="text/css">
+            body {
+                font-family: Helvetica;
+                font-size: 0.9em;
+            }
+            
+            h1 {
+                font-size: 150%;
+            }
+            
+            input {
+                font-size: 1.1em;
+                line-height: 120%;
+            }
+            
+            #status_update input[type=text] {
+                width: 70%;
+            }
+
+            #status_update input[type=button] {
+                width: 25%;
+            }
+            
+            ul#messages {
+                padding-left: 0px;
+                margin-left: 0px;
+            }
+            
+            li.message {
+                list-style: none;
+                
+                border-top: solid 1px #eee;
+                margin-bottom: 15px;
+            }
+            
+            li.message .sender {
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            
+            li.message .date {
+                color: #666;
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Feed</h1>
+        
+        <div>
+            <form id="status_update" method="post" onsubmit="messenger.postStatus(this); return false;">
+                <input name="status" type="text" value="" placeholder="What's new?"/>
+                <input type="submit" value="Post!"/>
+            </form>
+        </div>
+        
+        <ul id="messages">
+        </ul>
+    </body>
+</html>

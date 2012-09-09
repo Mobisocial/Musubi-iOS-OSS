@@ -1,0 +1,11 @@
+SocialKit-JS allows developers to write HTML5 apps for Musubi. The "apps" directory has a few example apps.
+
+How to run a web app in Musubi:
+
+1. Write your app, using the included socialkit.js library. See "apps" for some sample apps.
+
+2. Host your webapp on a public web server, with "musubi/app" in the web app's path.
+
+3. Visit your webapp in a web browser on your mobile device, and "share" the app's url using Musubi
+
+4. When the app is shared with a feed, it will be recognized as a Musubi app that can be run or installed for use in other Musubi feeds.

@@ -1,0 +1,139 @@
+﻿PRIVACY POLICY
+ 
+This Privacy Policy is effective as of and was last updated onAugust 21, 2012.
+ 
+1.         General.
+ 
+This privacy policy (this “Privacy Policy”) is designed toinform you about the type of information that Stanford University’sMobiSocial Computing Lab (“we,” “us,” or “our”)may gather or collect from you in connection with your use of this app (“Musubi” or this “App”).  It alsoexplains the conditions under which we use and disclose that information, andyour rights in relation to that information.
+ 
+The procedures for modifying or changing this Privacy Policy inthe future are discussed in Section 8 of this document. 
+ 
+2.         Uninstalling Musubi.
+ 
+You may uninstall Musubi at any timefrom your mobile device, and you may access and change user settings from theoptions/settings menu on your device at any time.  Uninstallationmethods vary depending on your device.  To uninstall Musubi, please use the application manager provided withyour device or consult your device manual.
+ 
+3.         Children.
+ 
+We do not knowingly collect personal information from childrenunder 13.
+ 
+4.       Our Collection,Use and Disclosure of Personally–Identifying Information.
+ 
+“Personally–Identifying Information,” is information suchas a name or email address that, without more, can be directly associated witha specific person or entity.  We will not disclose yourPersonally-Identifying Information to third parties unless we obtain yourpermission to do so at the time we collect it, except as set forth below:
+ 
+A.         CollectingPersonally-Identifying Information from and about App Users.
+ 
+i.                   Registration and Other Information Provided to Us.
+ 
+When you register to use this App, you may be asked to disclose Personally–IdentifyingInformation including without limitation your name and email address. You may alsochoose to submit Personally-Identifying Information to us when you send us acomment or note. 
+ 
+ii.                 Use of “Share Functionality” on Musubi.
+ 
+When you use the tools on Musubi toimport your contacts from third party social networking sites or your emailaccounts (such as Facebook or Gmail) to Musubi, you provide us with thePersonally-Identifying Information associated with your social networking andemail accounts, including without limitation: your name, email address, phonenumber, gender, birthday, current city, Internet Protocol address and profilephoto URL.  You may also provide us with Personally-IdentifyingInformation about your friends that you have stored in your social networkingand email account address books.
+ 
+                       iii.        Use of “Join A NearbyGroup” on Musubi.
+ 
+You may elect to broadcast your conversations to other Musubi users who are within a half-mile radius (the “GroupRange”) of you so that they can participate in your conversations.  Tobroadcast a conversation, tap on the conversation you want to broadcast, tapthe “options” button in the top right hand corner, and tap on the “Broadcast For 1 Hour” button to indicate that you want to broadcastyour conversation.  Once you broadcast your conversation, yourconversation will be available for other Musubi usersin the Group Range to join for one hour.  (In the future we may give youthe option of broadcasting your conversations for more or less than one hour.)
+ 
+If you broadcast your conversation, we will collect informationabout your geographic location if you opt-in to allow us to do so.  (Wewill know your location to within half of a mile.)  If you join aconversation that is broadcasted, and you opt-in toallow us to collect your geo-location information, we will also collectinformation about your geographic location, and we will know your location towithin half of a mile.   We will not collect geo-location informationabout any Musubi users unless they broadcast aconversation, click the “join nearby conversation” button or choose to sharetheir location with friends. 
+ 
+The operating system on your mobile device will prompt you to affirmativelyopt-in to allow us to collect your geo-location information.  If youopt-out, it is a permanent opt-out, and you will not be able to join abroadcast conversation or broadcast a conversation unless you re-configure thesystems settings in your mobile device to permit us to track your location. Please consult your device manual for instructions on how to do this.
+ 
+IF YOU DO NOT WANT US TO COLLECT YOUR GEO-LOCATION INFORMATION,PLEASE DO NOT BROADCAST YOUR CONVERSATIONS OR JOIN A BROADCASTED CONVERSATION. 
+ 
+                       iv.        Use of “Map Your Location”Service on Musubi.
+ 
+When you are having a conversation with your friends, you maydecide to share your location with your friends.  If you decide to usethis feature, and if you opt-in to give us consent, we will collect informationabout your geographic location.  (We will know your location to withinhalf of a mile.) 
+ 
+IF YOU DO NOT WANT US TO COLLECT YOUR GEO-LOCATION INFORMATION,PLEASE DO NOT USE THE “MAP YOUR LOCATION” SERVICE. 
+  
+B.         Use of Personally-Identifying Information.
+ 
+Except as described in Section 4(B)(i), we may use the Personally-Identifying Information thatyou submit to us for any purpose relating to the operation of Musubi and for our general business purposes.  Forexample, we may use Personally-Identifying Information:  (i) during theregistration process to verify your identity the first time you sign in to use Musubi; (ii) to perform surveys as indicated in Section4(C)(vi) below; (iii) to create your personal QR Code as is described in moredetail in Section 4(C)(ii) below; (iv) to post notices on your socialnetworking accounts (if you ask us to do so); and (v) to send you marketingmaterials we think may be of interest to you as indicated in Section 4(C)(xi)below.
+ 
+Notwithstanding the foregoing, if you use the tools on Musubi to import your contacts from third party socialnetworking sites or your email accounts (such as Facebook or Gmail) to Musubi, you understand and accept that we copy your andyour friends’ Personally-Identifying Information to our servers and use suchPersonally-Identifying Information to populate your address book on Musubi and create your QR Code.  After we do so, wedelete the Personally-Identifying Information we obtain about you and yourfriends from your social networking and email accounts from our servers. 
+ 
+                       i.         Our Use of Your Geo-Location Information.
+ 
+If you use our “Join A Nearby Group” feature to broadcast aconversation or join a broadcasted conversation, we will store the geo-locationinformation we collect about you in encrypted form on our servers for theduration of the broadcast conversation, and we will use this information onlyfor the purpose of making the “Join A Nearby Group” feature available toyou.  We delete your geo-location information from our servers promptlyafter the broadcast period ends.
+ 
+If you use our “Map Your Location” feature, we will store thegeo-location information we collect about you in encrypted form on our servers,and we will use this information to generate a map that shows where you arelocated to within half a mile.  We make this map available to your friendswho are participating in your conversation.  Your encryptedPersonally-Identifying Information will promptly be deleted from our serveronce all participants in the group have received the map.
+ 
+C.         Disclosure of Personally-IdentifyingInformation.
+ 
+We may disclose Personally-Identifying Information in thefollowing circumstances:
+ 
+i.                   Posting Notices on Your Social Networking Accounts.
+ 
+You may ask us to post notices relating to your use of Musubi on your social networking accounts (such as Facebookor Twitter).  If you ask us to post these notices, we will postinformation about your use of Musubi that may includeyour Personally-Identifying Information (such as your name and photo) on yoursocial networking accounts.  If you do not want us to disclose your Personally-IdentifyingInformation in this way, please do not ask us post notices about your use ofMusubi on your social networking accounts.
+ 
+ii.         QRCodes.
+ 
+A Quick Response Code (“QR Code”) is a series of black square dotsthat contain encoded information and are arranged in a pattern on a whitebackground.  We use your Personally-Identifying Information to create yourQR Code which contains your email addresses and/or Facebook ID numbers. Your QR Code is only stored on your mobile device; we do not store your QR Codeon our servers, use it for any reason or disclose it to third parties. 
+ 
+To see your personal QR Code, go to the “Settings” page and tap onthe “My QR Code” button.  You may choose to share your QR Code withanother person by bringing up your QR Code on your mobile device and permittinga third party to scan your QR Code with his or her mobile device.  If youpermit someone to scan your QR Code, the third party who scans your QR Codewill add your email addresses and/or Facebook ID number to his or her addressbook. 
+ 
+IF YOU DO NOT WANT ANYONE TO HAVE THE PERSONALLY-IDENTIFYINGINFORMATION CONTAINED IN YOUR QR CODE, DO NOT PERMIT ANYONE TO SCAN YOUR QRCODE. 
+ 
+iii.       “Join A Nearby Group Feature”
+ 
+If you broadcast a conversation, we will send your geo-locationinformation and email address, in encrypted form, to the device of a user whojoins your broadcasted conversation.  Once the user’s device receives thisinformation, it will join the broadcasted conversation.  Your encryptedPersonally-Identifying Information will promptly be deleted from our serverwhen the broadcast period ends, but it will not be deleted from the otheruser’s mobile device.
+ 
+If you join a broadcasted conversation, we will send yourgeo-location information, in encrypted form, to the device of the user whobroadcast the conversation.  Once the broadcaster’s device receives thisinformation, it will authorize your device to join the conversation.  Yourencrypted Personally-Identifying Information will promptly be deleted from ourserver after it is delivered to the other user, but it will not be deleted fromthe other user’s mobile device.
+ 
+iv.       Map Your Location Feature.
+ 
+If you use the “Map Your Location” feature, we will send yourfriends who are participating in your conversation a map with your location towithin half a mile.  We send your friends this information in encryptedform.  Your encrypted Personally-Identifying Information will promptly bedeleted from our server once all participants in the group have received themap, but it will not be deleted from the other users’ mobile devices.
+ 
+v.        Notices of Violations of App EULA and Other Communications Directed to Us.
+ 
+By submitting correspondence to us (including communications aboutcontent stored on or transmitted through this App), you consent to have thiscommunication forwarded to the person or entity that relate to yourcommunications in order to facilitate a prompt resolution.  
+ 
+vi.         Surveys.
+ 
+From time to time, we may also ask you to participate in surveysfor our general business and marketing purposes.  AnyPersonally-Identifying Information provided to us in connection with a surveywill be used only in relation to that survey, and will be disclosed to thirdparties not bound by this Privacy Policy only in non-personally-identifying,aggregated form. 
+ 
+vii.        Contests,Giveaways and other Promotions.
+ 
+From time to time, we may offer you the opportunity to participatein contests, giveaways and other promotions.  Any informationsubmitted in connection with promotions will be subject to the terms of thepromotion, not this Privacy Policy.   You will be given theoption to consent to the use of your Personally-Identifying Information at thetime you sign up for the promotion.  You will not be required toparticipate in any promotion. 
+           
+viii.        Employees,Third-Party Processors and Third-Party Service Providers.
+ 
+We may disclose Personally-Identifying Information to ouremployees, contractors, affiliates, distributors, dealers, vendors andsuppliers who process Personally-Identifying Information on our behalf,participate with us in the provision or operation of this App or provide youwith services. 
+ 
+ix.         ByLaw, to Protect Rights and to Comply with Our Policies.
+ 
+We disclose Personally-Identifying information if:  (1)required to do so by law, or in response to a subpoena or court order; (2) webelieve in our sole discretion that disclosure is reasonably necessary tocomply with the law, protect against fraud, to protect the property or otherrights of us or other users, third parties or the public at large; or (3) webelieve that you have abused the service or have otherwise violated applicablelaws.
+ 
+                        x.        BusinessTransfers.
+ 
+We may transfer all Personally-Identifying Information in ourpossession to a successor entity in the event of a merger, acquisition,bankruptcy or other sale of all or a portion of our assets.  Otherthan to the extent ordered by a court, the use and disclosure of alltransferred Personally-Identifying Information will be subject to this PrivacyPolicy, or to a new privacy policy if you are given notice of that new privacypolicy and you affirmatively opt-in to acceptit.  Personally-Identifying Information submitted or collected aftera transfer, however, may be subject to a new privacy policy adopted by thesuccessor entity. 
+ 
+                       xi.        MarketingCommunications.
+ 
+We may email you about products andservices that we believe may be of interest to you.  If you wish toopt-out of receiving marketing materials from us, please follow theinstructions at the bottom of each email for opting out.
+ 5.       Gathering, Use and Disclosure of Non-Personally-Identifying Information.
+ 
+ “Non–Personally–IdentifyingInformation” is information that, without the aid of additionalinformation, cannot be directly associated with a specific person orentity.  
+ 
+A.                GatheringNon-Personally-Identifying Information.
+ 
+We may automatically, in connection with your use of the Appsoftware, collect certain Non-Personally-Identifying Information, includingwithout limitation: (i) the number of times you sharedata on the App; (ii) the type of data you share (photos, videos, etc.); (iii)the amount of time you use the app; and (iv) compliance with the Musubi EULAhttp://mobisocial.musubi.com(collectively, "Usage Information"). By installing Musubi, you agree to permit us to collect your UsageInformation, and not to make any attempt to manipulate or falsify your UsageInformation. If you do not want us to collect your Usage Information, please donot download or install the App.
+ 
+            B.         Useof Non-Personally-Identifying Information.
+ 
+We analyze Non–Personally–Identifying Information (such as UsageInformation) gathered from users of this App to help us better understand howthis App is being used.  By identifying patterns and trends in usage,we are able to better design this App to improve your experiences, both interms of content and ease of use.  We may linkNon-Personally-Identifying Information to Personally-Identifying Information.
+ 
+            C.         Disclosureof Non-Personally-Identifying Information.
+ 
+From time to time, we may also release theNon–Personally–Identifying Information gathered from App users in theaggregate, such as by publishing a report on trends in the usage of thisApp.  We will not publish Personally-Identifying Information in connectionwith such reports.
+ 
+6.         Collectionand Use of Information by Third Parties.
+ 
+This App may utilizesocial networking or “share functionality” or may contain links to third partysites that are not owned or controlled by us.  For example, you may chooseto:  (a) use Dropbox backup and restore servicesto back-up you and your friends’ conversations and Personally-IdentifyingInformation that is stored on your mobile device; or (b) use Facebook or Gmailshare functionality to import your address book to your mobile device for thepurpose of using Musubi.  Furthermore, thecompanies that own the app stores from which you download Musubimay collect information, including Personally-Identifiable Information, aboutyou and your use of Musubi.
+ 
+We have no control over, and assume noresponsibility for, any share functionality or the content, privacy policies,or practices of any third parties, including without limitation Google, Inc.and Apple, Inc.  These third parties’ privacy policies (not thisPrivacy Policy) govern their collection, use and disclosure of yourPersonally-Identifying Information.  You are subject tothe policies of those third parties where applicable.  By using this App, you expressly relieve usfrom any and all liability arising from your use of any share functionality orthird-party site accessed from Musubi.  Weencourage you to review these third parties’ privacy policies and other legaldocuments before you disclose your Personally-Identifying Information to them.
+ 7.         Security.
+The content you create or submit throughMusubi may be stored locally on your device. You should take steps to secure your mobile device including without limitationsetting a security password.  Furthermore, you may transmit content youcreate or submit through Musubi to third parties viawireless or wired networks.  Stanford does not control your transmissionof content via Musubiover wireless and wirednetworks, and your wireless and wired networks may not be inherentlysecure. 
+8.        Privacy Policy Changes.
+ Because of changes in technology and the growth and development of ourbusiness, or for other business reasons, we may need to modify this PrivacyPolicy from time to time.  We will alert you by posting a copy of thenew policy with its effective date on our site located at:  http://mobisocial.stanford.edu/musubi/privacyios.html. We will also display the new privacy policy on the app the next time you openit and will ask you to click to accept any material changes to this PrivacyPolicy before you may continue to use Musubi. If you do not click to accept the revised privacy policy when we ask you to doso, you may not continue to use Musubi. 
+ 

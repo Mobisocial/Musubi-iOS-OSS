@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-1.5.2.min.js"></script>
+        <script type="text/javascript" src="jquery.event.drag.min.js"></script>
+        <script type="text/javascript" src="../../lib/socialKit.js"></script>
+        <script type="text/javascript" src="../../lib/turnBasedGame.js"></script>
+        
+        <script type="text/javascript" src="app.js"></script>
+        
+        <style type="text/css">
+            body, html {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            body {
+                font-family: Helvetica;
+                font-size: 0.9em;
+            }
+            
+            .tile {
+                position: absolute;
+                left: -1px;
+                top: -1px;
+                width: 30px;
+                height: 30px;
+                background-color: #ffcc00;
+                border: solid 1px #777;
+                border-radius: 5px;
+                box-shadow: 1px 1px 1px #333;
+                color: #222;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 38px;
+                text-align: center;
+                vertical-align: middle;
+            }
+            
+            .tile .value {
+                position: absolute;
+                top: 1px;
+                right: 2px;
+                font-size: 10px;
+                line-height: 10px;
+                font-weight: 400;
+            }
+            
+            #board {
+                text-align: center;
+            }
+            
+            #board table {
+                margin: 10px auto;
+                padding: 0px;
+                border-collapse: collapse;
+            }
+            
+            #board td {
+                border: dotted 1px #888;
+                background-color: #fffff5;
+                width: 19px;
+                height: 19px;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 11px;
+                font-weight: 600;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+            }
+            
+            #board .space_dl {
+                background-color: #ccccff;
+            }
+            
+            #board .space_dw {
+                background-color: #ffcccc;
+            }
+            
+            #board .space_tl {
+                background-color: #0066cc;
+                color: white;
+            }
+            
+            #board .space_tw {
+                background-color: #ff5050;
+                color: white;
+            }
+            
+            #board .space_st {
+                background-color: purple;
+                background-image: url('star.png');
+                background-repeat: no-repeat;
+                background-position: center 1px;
+                font-size: 0px;
+            }
+            
+            #board .tile {
+                width: 18px;
+                height: 18px;
+                border-width: 0px;
+                border-radius: 3px;
+                font-size: 13px;
+                line-height: 22px;
+            }
+            
+            #board .tile .value {
+                top: 1px;
+                right: 0px;
+                font-size: 6px;
+                line-height: 6px;
+            }
+            
+            #rack {
+                float: none;
+                clear: both;
+                margin: auto;
+                width: 266px;
+                height: 33px;
+            }
+            
+            #rack .spot {
+                float: left;
+                position: relative;
+                width: 30px;
+                height: 30px;
+                margin: 0px 3px;
+                border: dotted 1px;
+                border-radius: 5px;
+                background-color: #f0f0f0;
+            }
+            
+            #turn {
+                float: none;
+                clear: both;
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            
+            #controls div {
+            	border: solid 1px black;
+            	width: 50px;
+            	margin: 5px;
+            	float: left;
+            }
+            
+            input {
+                line-height: 1.8em;
+                font-size: 1.25em;
+            }
+            
+            [draggable=true] {
+                -khtml-user-drag: element;
+            }
+            
+        </style>
+        
+        <title>WordPlay</title>
+    </head>
+    <body style="text-align: center">
+        <div id="board">
+        </div>
+        
+        <div id="rack">
+        </div>
+        
+        <div id="turn">
+        </div>
+        
+        <table id="scores">
+        	
+        </table>
+        
+        <div id="controls">
+        	<div class="play" onclick="game.play()">
+        		PLAY
+        	</div>
+        	
+        	<div class="shuffle" onclick="game.shuffle()">
+        		SHUFFLE
+        	</div>
+        	
+        	<div class="swap" onclick="game.swap()">
+        		SWAP
+        	</div>
+        </div>
+        
+        <div id="log"></div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+<head>
+	<script type="text/javascript" src="../jquery-1.5.2.min.js"></script>
+	
+	<script type="text/javascript" src="../lib/socialKit-1.0.1.js"></script>
+	<script type="text/javascript" src="../lib/turnBasedGame.js"></script>
+	<!-- 
+	<script type="text/javascript" src="rsa/bigint.js"> </script>
+	<script type="text/javascript" src="rsa/barrett.js"> </script>
+	<script type="text/javascript" src="rsa/rsa.js"> </script>
+	<script type="text/javascript" src="crypto-js/crypto-min.js"> </script>
+	<script type="text/javascript" src="crypto-js/crypto-sha1-hmac-pbkdf2-blockmodes-aes.js"> </script>
+	<script type="text/javascript" src="musubi/web_socket.js"> </script>
+	<script type="text/javascript" src="musubi/transport.js"> </script>
+	<script type="text/javascript" src="musubi/messageFormat.js"> </script> -->
+	<script type="text/javascript" src="../lib/platforms/socialKit-browser.js"></script>
+	
+	<style type="text/css">
+		body, html {
+			font-family: Helvetica;
+			font-size: 12px;
+			color: #333;
+		}
+		
+		.device {
+			border: solid 1px #999; 
+			border-radius: 10px; 
+			box-shadow: #333 1px 1px 3px; 
+			padding: 10px; 
+			float: left; 
+			margin-right: 20px;
+		}
+		
+		.device iframe {
+			width: 320px;
+			height: 480px;
+			border: solid 1px #999;
+		}
+	</style>
+</head>
+<body>
+	<div id="devices"></div>
+	
+	<div style="clear: both;"></div>
+	
+	<input type="button" onclick="addUser()" value="Add user/device" style="margin-top: 20px"/>
+	<input type="text" id="appId" value="edu.stanford.mobisocial.games.wordplay" style="width: 300px"></input><input type="button" onclick="launch($('#appId').val())" value="Launch"/>
+	<a href="http://bjdodson.com/musubi/htmlwriter/" target="_BLANK">html editor</a>
+	<script type="text/javascript">
+		var env = new Musubi.Browser.Environment(new Musubi.Browser.InterFrameTransport('test'));
+		var feed = {name: "Test", session: "test"};
+		
+		addUser();
+		addUser();
+		
+		function addUser() {
+			var id = $(".device").length;
+			var frame = 'view' + id;
+			var user = {name: "User " + (id + 1), id: id};
+			
+			$("#devices").append('<div class="device"><iframe name="' + frame + '"></iframe></div>');
+			env.startInstance(frame, user, feed, 'mobisocial.tictactoe');
+		}
+		
+		function launch(appId) {
+			var user = {name: "User 1", id: 0};
+			env.startInstance('view0', user, feed, appId);
+		}
+	</script>
+</body>
+
+</html>

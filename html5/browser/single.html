@@ -1,0 +1,64 @@
+<html>
+<head>
+	<script type="text/javascript" src="../jquery-1.5.2.min.js"></script>
+	
+	<script type="text/javascript" src="../lib/socialKit.js"></script>
+	<script type="text/javascript" src="../lib/turnBasedGame.js"></script>
+	
+	<script type="text/javascript" src="rsa/bigint.js"> </script>
+	<script type="text/javascript" src="rsa/barrett.js"> </script>
+	<script type="text/javascript" src="rsa/rsa.js"> </script>
+	<script type="text/javascript" src="crypto-js/crypto-min.js"> </script>
+	<script type="text/javascript" src="crypto-js/crypto-sha1-hmac-pbkdf2-blockmodes-aes.js"> </script>
+	<script type="text/javascript" src="musubi/web_socket.js"> </script>
+	<script type="text/javascript" src="musubi/transport.js"> </script>
+	<script type="text/javascript" src="musubi/messageFormat.js"> </script>
+	<script type="text/javascript" src="../lib/platforms/socialKit-browser.js"></script>
+	
+	<script type="text/javascript">
+		$('document').ready(function() {
+			var keyPair = new RSAKeyPair('MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqEnUVom64ZzTupLcrBllqZnKlkMxV+nH9Mg78Jqo2OG5Xv7fq0RQIh3Nuis4Wq1zFIG+CNbRjB76zRKP1Dr635N9GTjiTFmnDwTKDwfotwpuJTNaZmowh92xNR+pFYtoCPZQ3ZlUd/qGYPLI4RsQZOXq3SpRdc0kMxpKUEtUCqwIDAQAB','MIICXQIBAAKBgQCqEnUVom64ZzTupLcrBllqZnKlkMxV+nH9Mg78Jqo2OG5Xv7fq0RQIh3Nuis4Wq1zFIG+CNbRjB76zRKP1Dr635N9GTjiTFmnDwTKDwfotwpuJTNaZmowh92xNR+pFYtoCPZQ3ZlUd/qGYPLI4RsQZOXq3SpRdc0kMxpKUEtUCqwIDAQABAoGAKJjXUh7AB0y7meu/vYl6dqeV3me+Hxf1ddcpNI+WOfMmg9PD902JVq/eohiIMWkeb//aHl7rfGgw4WIVMT4f0Co3ju5KxuJnJtE4WA/Iut6/iR4UATX2Z8O8OfcioUtW+F7IEE64/9d0wW7wn177vsqUbC6Q3o8Ay+ljTNRFDAECQQDR+eCbBJSLq9374Iszz/Ru4xhIcM76RDdH3RrgmeC37F8xBuC5mn0yiiUDqZIjLwOTed/PjjzoCAp16L1SewiBAkEAz1l/hmcpdkk7+IVVThH2LWOctzTGu2LbRLwSeKZ2HMCsUK9kDDVh4txUEg23fcu2LMp3vAFD07mINAGlJHgVKwJBAK2jGDS49eoGZxxqFFL1TeoAy8zj1JUqohhAZICFX0pZImLVkDKL6apIiNFdgaassyVabFUkB4PNWnEk1KKHcYECQCAbV6fUKZNrW6Hr432nQltc5VNpFKzHbfSCusl73SYun4AO6IsLaRDb1RjGjvcnqBnfcBLojzwlqnWDG7M99OkCQQDJozXppqMj5HqCEGUOHGGxHigHAHCCC15vR2e9k84goUNbf9E7ICyII+ms2zpk0rIj+VtCvGWmC7WXUaowu62P');
+			var feedName = '7ef6ec76-8404-4f10-b202-dd39737c0dbc';
+			
+			var user = {name: "Test", id: keyPair.publicKeyString};
+			var feed = {name: "Test", uri: "", session: feedName, key: ""};
+			var env = new Musubi.Browser.Environment(new Musubi.AMQPTransport('localhost:8888', keyPair));
+			
+			env.startInstance('feed', user, feed, 'edu.stanford.mobisocial.dungbeetle');
+		});
+		
+	</script>
+	
+	<style type="text/css">
+		body, html {
+			font-family: Helvetica;
+			font-size: 12px;
+			color: #333;
+		}
+		
+		.device {
+			border: solid 1px #999; 
+			border-radius: 10px; 
+			box-shadow: #333 1px 1px 3px; 
+			padding: 10px; 
+			float: left; 
+			margin-right: 20px;
+		}
+		
+		.device iframe {
+			width: 320px;
+			height: 480px;
+			border: solid 1px #999;
+		}
+	</style>
+</head>
+<body>
+	<div id="devices">
+		<div class="device"><iframe name="feed"></iframe></div>
+		<div class="device"><iframe name="app"></iframe></div>
+	</div>
+	
+	<div style="clear: both;"></div>
+</body>
+
+</html>

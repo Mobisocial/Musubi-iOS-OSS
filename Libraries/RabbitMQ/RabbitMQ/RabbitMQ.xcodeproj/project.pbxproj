@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D930F91522A1DD006E4F58 /* amqp_api.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930EA1522A1DD006E4F58 /* amqp_api.c */; };
+		D2D930FA1522A1DD006E4F58 /* amqp_connection.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930EB1522A1DD006E4F58 /* amqp_connection.c */; };
+		D2D930FB1522A1DD006E4F58 /* amqp_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930EC1522A1DD006E4F58 /* amqp_framing.c */; };
+		D2D930FC1522A1DD006E4F58 /* amqp_framing.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D930ED1522A1DD006E4F58 /* amqp_framing.h */; };
+		D2D930FD1522A1DD006E4F58 /* amqp_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930EE1522A1DD006E4F58 /* amqp_mem.c */; };
+		D2D930FE1522A1DD006E4F58 /* amqp_private.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D930EF1522A1DD006E4F58 /* amqp_private.h */; };
+		D2D930FF1522A1DD006E4F58 /* amqp_socket.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930F01522A1DD006E4F58 /* amqp_socket.c */; };
+		D2D931001522A1DD006E4F58 /* amqp_table.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930F11522A1DD006E4F58 /* amqp_table.c */; };
+		D2D931011522A1DD006E4F58 /* amqp_url.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930F21522A1DD006E4F58 /* amqp_url.c */; };
+		D2D931021522A1DD006E4F58 /* amqp.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D930F31522A1DD006E4F58 /* amqp.h */; };
+		D2D931031522A1DD006E4F58 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D930F41522A1DD006E4F58 /* config.h */; };
+		D2D931041522A1DD006E4F58 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930F51522A1DD006E4F58 /* socket.c */; };
+		D2D931051522A1DD006E4F58 /* socket.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D930F61522A1DD006E4F58 /* socket.h */; };
+		D2D931061522A1DD006E4F58 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = D2D930F71522A1DD006E4F58 /* utils.c */; };
+		D2D931071522A1DD006E4F58 /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D930F81522A1DD006E4F58 /* utils.h */; };
+		D2D931091522A25A006E4F58 /* RabbitMQ-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D2D931081522A25A006E4F58 /* RabbitMQ-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2D930DA1522A1C8006E4F58 /* libRabbitMQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRabbitMQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D930EA1522A1DD006E4F58 /* amqp_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_api.c; path = ../amqp_api.c; sourceTree = "<group>"; };
+		D2D930EB1522A1DD006E4F58 /* amqp_connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_connection.c; path = ../amqp_connection.c; sourceTree = "<group>"; };
+		D2D930EC1522A1DD006E4F58 /* amqp_framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_framing.c; path = ../amqp_framing.c; sourceTree = "<group>"; };
+		D2D930ED1522A1DD006E4F58 /* amqp_framing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amqp_framing.h; path = ../amqp_framing.h; sourceTree = "<group>"; };
+		D2D930EE1522A1DD006E4F58 /* amqp_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_mem.c; path = ../amqp_mem.c; sourceTree = "<group>"; };
+		D2D930EF1522A1DD006E4F58 /* amqp_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amqp_private.h; path = ../amqp_private.h; sourceTree = "<group>"; };
+		D2D930F01522A1DD006E4F58 /* amqp_socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_socket.c; path = ../amqp_socket.c; sourceTree = "<group>"; };
+		D2D930F11522A1DD006E4F58 /* amqp_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_table.c; path = ../amqp_table.c; sourceTree = "<group>"; };
+		D2D930F21522A1DD006E4F58 /* amqp_url.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amqp_url.c; path = ../amqp_url.c; sourceTree = "<group>"; };
+		D2D930F31522A1DD006E4F58 /* amqp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amqp.h; path = ../amqp.h; sourceTree = "<group>"; };
+		D2D930F41522A1DD006E4F58 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../config.h; sourceTree = "<group>"; };
+		D2D930F51522A1DD006E4F58 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = socket.c; path = ../socket.c; sourceTree = "<group>"; };
+		D2D930F61522A1DD006E4F58 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socket.h; path = ../socket.h; sourceTree = "<group>"; };
+		D2D930F71522A1DD006E4F58 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utils.c; path = ../utils.c; sourceTree = "<group>"; };
+		D2D930F81522A1DD006E4F58 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = ../utils.h; sourceTree = "<group>"; };
+		D2D931081522A25A006E4F58 /* RabbitMQ-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RabbitMQ-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D930D71522A1C8006E4F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D930CF1522A1C7006E4F58 = {
+			isa = PBXGroup;
+			children = (
+				D2D931081522A25A006E4F58 /* RabbitMQ-Prefix.pch */,
+				D2D930EA1522A1DD006E4F58 /* amqp_api.c */,
+				D2D930EB1522A1DD006E4F58 /* amqp_connection.c */,
+				D2D930EC1522A1DD006E4F58 /* amqp_framing.c */,
+				D2D930ED1522A1DD006E4F58 /* amqp_framing.h */,
+				D2D930EE1522A1DD006E4F58 /* amqp_mem.c */,
+				D2D930EF1522A1DD006E4F58 /* amqp_private.h */,
+				D2D930F01522A1DD006E4F58 /* amqp_socket.c */,
+				D2D930F11522A1DD006E4F58 /* amqp_table.c */,
+				D2D930F21522A1DD006E4F58 /* amqp_url.c */,
+				D2D930F31522A1DD006E4F58 /* amqp.h */,
+				D2D930F41522A1DD006E4F58 /* config.h */,
+				D2D930F51522A1DD006E4F58 /* socket.c */,
+				D2D930F61522A1DD006E4F58 /* socket.h */,
+				D2D930F71522A1DD006E4F58 /* utils.c */,
+				D2D930F81522A1DD006E4F58 /* utils.h */,
+				D2D930DB1522A1C8006E4F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D930DB1522A1C8006E4F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D930DA1522A1C8006E4F58 /* libRabbitMQ.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2D930D81522A1C8006E4F58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D930FC1522A1DD006E4F58 /* amqp_framing.h in Headers */,
+				D2D930FE1522A1DD006E4F58 /* amqp_private.h in Headers */,
+				D2D931021522A1DD006E4F58 /* amqp.h in Headers */,
+				D2D931031522A1DD006E4F58 /* config.h in Headers */,
+				D2D931051522A1DD006E4F58 /* socket.h in Headers */,
+				D2D931071522A1DD006E4F58 /* utils.h in Headers */,
+				D2D931091522A25A006E4F58 /* RabbitMQ-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2D930D91522A1C8006E4F58 /* RabbitMQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D930E71522A1C8006E4F58 /* Build configuration list for PBXNativeTarget "RabbitMQ" */;
+			buildPhases = (
+				D2D930D61522A1C8006E4F58 /* Sources */,
+				D2D930D71522A1C8006E4F58 /* Frameworks */,
+				D2D930D81522A1C8006E4F58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbitMQ;
+			productName = RabbitMQ;
+			productReference = D2D930DA1522A1C8006E4F58 /* libRabbitMQ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D930D11522A1C7006E4F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D2D930D41522A1C7006E4F58 /* Build configuration list for PBXProject "RabbitMQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2D930CF1522A1C7006E4F58;
+			productRefGroup = D2D930DB1522A1C8006E4F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D930D91522A1C8006E4F58 /* RabbitMQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D930D61522A1C8006E4F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D930F91522A1DD006E4F58 /* amqp_api.c in Sources */,
+				D2D930FA1522A1DD006E4F58 /* amqp_connection.c in Sources */,
+				D2D930FB1522A1DD006E4F58 /* amqp_framing.c in Sources */,
+				D2D930FD1522A1DD006E4F58 /* amqp_mem.c in Sources */,
+				D2D930FF1522A1DD006E4F58 /* amqp_socket.c in Sources */,
+				D2D931001522A1DD006E4F58 /* amqp_table.c in Sources */,
+				D2D931011522A1DD006E4F58 /* amqp_url.c in Sources */,
+				D2D931041522A1DD006E4F58 /* socket.c in Sources */,
+				D2D931061522A1DD006E4F58 /* utils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D2D930E51522A1C8006E4F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2D930E61522A1C8006E4F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D930E81522A1C8006E4F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RabbitMQ.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RabbitMQ-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2D930E91522A1C8006E4F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RabbitMQ.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RabbitMQ-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D930D41522A1C7006E4F58 /* Build configuration list for PBXProject "RabbitMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D930E51522A1C8006E4F58 /* Debug */,
+				D2D930E61522A1C8006E4F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D930E71522A1C8006E4F58 /* Build configuration list for PBXNativeTarget "RabbitMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D930E81522A1C8006E4F58 /* Debug */,
+				D2D930E91522A1C8006E4F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D930D11522A1C7006E4F58 /* Project object */;
+}

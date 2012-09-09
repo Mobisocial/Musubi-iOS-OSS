@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RabbitMQ' target in the 'RabbitMQ' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

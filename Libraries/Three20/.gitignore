@@ -1,0 +1,25 @@
+.DS_Store
+build
+Build
+Products
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+xcuserdata
+.DS_Store
+config
+src/Three20/*.h
+src/Three20Core/*.h
+src/Three20Network/*.h
+src/Three20Style/*.h
+src/Three20UICommon/*.h
+src/Three20UINavigator/*.h
+src/Three20UI/*.h
+extensions/
+
+*.pyc
+Docs
+
+# we don't support xcworkspaces for single projects. Use Three20.xcworkspace instead
+*.xcworkspace
+!Three20.xcworkspace
