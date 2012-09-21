@@ -85,7 +85,7 @@ static const short _base64DecodingTableWebSafe[256] = {
 	if (intLength == 0) return nil;
 
 	// Setup the String-based Result placeholder and pointer within that placeholder
-	strResult = (char *)calloc(((intLength + 2) / 3) * 4 + 2, sizeof(char));
+	strResult = (char *)calloc(((intLength + 2) / 3) * 4, sizeof(char));
 	objPointer = strResult;
 	
 	// Iterate through everything
